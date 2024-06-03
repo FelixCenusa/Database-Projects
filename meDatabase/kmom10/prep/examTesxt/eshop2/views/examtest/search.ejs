@@ -1,0 +1,44 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Satellit </h2>
+
+        <h3>All Satellit:</h3>
+        
+        <table>
+                <tr>
+                        <th>SatellitID</th><th>Namn</th><th>Massa</th><th>Uppskjutning</th>
+                        <th>Plats</th><th>eol</th><th>url_s</th><th>fenomenNamn</th><th>url_f</th>
+                        <th>Problem</th>
+                </tr>
+
+
+
+                <form action="../examtest/search" method="post">
+                    <td>
+                        <input type="text" name="what" placeholder="Search what: ">
+                    </td>
+                    <td>
+                        <input type="submit" value="Search">
+                    </td>
+                </form>
+
+
+
+
+                <% for (const inf of info){ %>
+                        <tr>
+                            <td><%= inf.id %></td>
+                            <td><a href="<%= inf.url_s %>"><%= inf.namn %></td>
+                            <td><%= inf.massa %></td>
+                            <td><%= inf.uppskjutning %></td>
+                            <td><%= inf.plats %></td>
+                            <td><%= inf.eol %></td>
+                            <td><a href="<%= inf.url_s %>"><%= inf.url_s %></a></td>
+                            <td><%= inf.fenomenNamn %></td>
+                            <td><a href="<%= inf.url_f %>"><%= inf.url_f %></a></td>
+                            <td><%= inf.problem %></td>
+
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

@@ -1,0 +1,16 @@
+<%- include("./../partials/header.ejs") %>
+        
+        <form method="post" action="/update">
+            <label>Produktid</label>
+            <input type="text" name="produktid" value="<%= one.produktid %>" readonly>
+            <label>Namn</label>
+            <input type="text" name="namn" value="<%= one.namn %>" >
+            <label>Pris</label>
+            <input type="number" name="pris"  min="0" value="<%= one.pris %>">
+            <label>Bild Länk</label>
+            <input type="text" name="bildlank" value="<%= one.bildlank %>">
+            <label>Beskriving</label>
+            <input type="textarea" name="beskrivning" value="<%= one.beskrivning %>">
+            <input type="submit" value="Update">
+        </form>
+<%- include("./../partials/footer.ejs") %>

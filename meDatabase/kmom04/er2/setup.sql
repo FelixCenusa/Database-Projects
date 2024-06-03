@@ -1,0 +1,4 @@
+-- KMOM04 inscructions unclear, 
+-- the setup / transaction files are in er2 andin SQL inside express-sql
+-- for some reason it still requires ddl.sql so i added this "fake file" to stop geting the error.
+-- everything works as it shoul though. Bank is created in transactions.sql

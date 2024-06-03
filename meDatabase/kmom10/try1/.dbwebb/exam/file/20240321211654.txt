@@ -1,0 +1,88 @@
+20240321211654
+.
+total 60
+drwxr-xr-x 3 fece23 fece23  4096 Mar 21 17:58 .dbwebb
+-rw-r--r-- 1 fece23 fece23 11425 Mar 21 17:58 INSTRUKTION.md
+-rw-r--r-- 1 fece23 fece23  3926 Mar 21 17:58 README_FIRST.md
+-rw-r--r-- 1 fece23 fece23  1998 Mar 21 21:05 cli.js
+drwxr-xr-x 3 fece23 fece23  4096 Mar 21 18:06 config
+drwxr-xr-x 2 fece23 fece23  4096 Mar 21 21:13 doc
+-rw-r--r-- 1 fece23 fece23   501 Mar 20 17:45 index.js
+-rw-r--r-- 1 fece23 fece23   559 Mar 19 18:27 package.json
+drwxr-xr-x 3 fece23 fece23  4096 Mar 21 18:06 public
+drwxr-xr-x 2 fece23 fece23  4096 Mar 21 18:06 routes
+drwxr-xr-x 3 fece23 fece23  4096 Mar 21 18:24 sql
+drwxr-xr-x 2 fece23 fece23  4096 Mar 21 18:25 src
+drwxr-xr-x 4 fece23 fece23  4096 Mar 21 18:26 views
+./views
+total 8
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 18:06 exam
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 18:06 partials
+./views/partials
+total 8
+-rw-r--r-- 1 fece23 fece23 324 Mar 19 18:27 footer.ejs
+-rw-r--r-- 1 fece23 fece23 351 Mar 21 19:02 header.ejs
+./views/exam
+total 12
+-rw-r--r-- 1 fece23 fece23  126 Mar 21 19:27 index.ejs
+-rw-r--r-- 1 fece23 fece23 1452 Mar 21 20:42 search.ejs
+-rw-r--r-- 1 fece23 fece23 1165 Mar 21 20:42 visa.ejs
+./sql
+total 4
+drwxr-xr-x 3 fece23 fece23 4096 Mar 21 21:07 exam
+./sql/exam
+total 44
+-rw-r--r-- 1 fece23 fece23 13571 Mar 21 21:07 backup.sql
+drwxr-xr-x 2 fece23 fece23  4096 Mar 21 18:27 csv
+-rw-r--r-- 1 fece23 fece23  4183 Mar 21 20:39 ddl.sql
+-rw-r--r-- 1 fece23 fece23   228 Mar 21 20:29 dml.sql
+-rw-r--r-- 1 fece23 fece23   915 Mar 21 19:22 insert.sql
+-rw-r--r-- 1 fece23 fece23    83 Mar 21 18:40 reset.sql
+-rw-r--r-- 1 fece23 fece23    72 Mar 21 18:40 setup.sql
+./sql/exam/csv
+total 16
+-rw-r--r-- 1 fece23 fece23  202 Mar 21 18:27 developer.csv
+-rw-r--r-- 1 fece23 fece23 1540 Mar 21 18:27 product.csv
+-rw-r--r-- 1 fece23 fece23   99 Mar 21 18:27 product2type.csv
+-rw-r--r-- 1 fece23 fece23  467 Mar 21 18:27 type.csv
+./doc
+total 124
+-rw-r--r-- 1 fece23 fece23 126840 Mar 21 18:52 er.pdf
+./src
+total 4
+-rw-r--r-- 1 fece23 fece23 3765 Mar 21 21:03 exam.js
+./config
+total 4
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 18:24 db
+./config/db
+total 4
+-rw-r--r-- 1 fece23 fece23 151 Mar 21 18:24 exam.json
+./public
+total 4
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 18:06 style
+./public/style
+total 4
+-rw-r--r-- 1 fece23 fece23 1351 Mar 19 18:27 style.css
+./.dbwebb
+total 4
+drwxr-xr-x 4 fece23 fece23 4096 Mar 21 17:58 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 21:16 file
+-rw-r--r-- 1 fece23 fece23   36 Mar 21 17:58 id.md
+drwxr-xr-x 2 fece23 fece23 4096 Mar 21 21:16 receipt
+./.dbwebb/exam/receipt
+total 16
+-rw-r--r-- 1 fece23 fece23 591 Mar 21 17:58 20240321165822.md
+-rw-r--r-- 1 fece23 fece23 591 Mar 21 17:59 20240321175910.md
+-rw-r--r-- 1 fece23 fece23 683 Mar 21 21:15 20240321201557.md
+-rw-r--r-- 1 fece23 fece23 683 Mar 21 21:16 20240321211654.md
+./.dbwebb/exam/file
+total 16
+-rw-r--r-- 1 fece23 fece23  633 Mar 21 17:58 20240321175822.txt
+-rw-r--r-- 1 fece23 fece23  758 Mar 21 17:59 20240321175910.txt
+-rw-r--r-- 1 fece23 fece23 3081 Mar 21 21:15 20240321211557.txt
+-rw-r--r-- 1 fece23 fece23 2865 Mar 21 21:16 20240321211654.txt
+./routes
+total 4
+-rw-r--r-- 1 fece23 fece23 1417 Mar 21 20:43 indexRoutes.js

@@ -1,0 +1,15 @@
+<%- include("./../partials/header.ejs") %>
+
+        <h2>All categories:</h2>
+        
+        <table>
+                <tr>
+                        <th>Kategori</th>
+                </tr>
+                <% for (const kategori of get_kategoris){ %>
+                        <tr>
+                                <td><%= kategori.kategori %></td>
+                        </tr>
+                <% } %>
+        </table>
+<%- include("./../partials/footer.ejs") %>

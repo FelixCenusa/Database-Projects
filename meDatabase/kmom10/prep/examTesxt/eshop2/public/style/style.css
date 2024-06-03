@@ -1,0 +1,75 @@
+body {
+    background-color: #c4c1b9;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+table td, table th {
+    border: 1px solid #043353;
+    padding: 8px;
+    }
+
+table tr:nth-child(even){background-color: #FAF8F0;}
+
+table tr:hover {background-color: #a4a095;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7ed0ff;
+    color:#FAF8F0;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #043353;
+    }
+    
+li {
+    float: left;
+    }
+    
+li a {
+    display: block;
+    color: #7ed0ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #021623;
+    }
+
+button.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+    
+button.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #043353;
+    }
+    
+button.button1:hover {
+    background-color: #7ed0ff;
+    color: white;
+    }

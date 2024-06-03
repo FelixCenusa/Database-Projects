@@ -1,0 +1,29 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Order <%= orderid %></h2>
+
+        <h3>All produkts:</h3>
+        
+        <table>
+                <tr>
+                        <th>ProduktId</th><th>Namn</th><th>Pris</th><th>Antal i lager</th><th>Kategori</th><th>Antal</th>
+                </tr>
+                <% for (const info of produktinfo){ %>
+                        <tr>
+                                <td><%= info.produktid %></td>
+                                <td><%= info.namn %></td>
+                                <td><%= info.pris %></td>
+                                <td><%= info.antal %></td>
+                                <td><%= info.kategori %></td>
+                                <form action="../add_to_order_part2/<%=orderid %>/<%=info.produktid %>" method="post">
+                                    <td>
+                                        <input type="number" name="antal" max="<%= info.antal %>" min="0">
+                                    </td>
+                                    <td>
+                                        <input type="submit" value="Add">
+                                    </td>
+                                </form>
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

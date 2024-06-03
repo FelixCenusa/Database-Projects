@@ -1,0 +1,23 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>All Orders:</h2>
+        
+        <table>
+                <tr>
+                        <th>OrderId</th><th>Order datum</th><th>KundId</th><th>Produkter</th><th>Status</th><th>Action</th>
+                </tr>
+                <% for (const info of all_order){ %>
+                        <tr>
+                                <td><%= info.orderid %></td>
+                                <td><%= info.orderdatum %></td>
+                                <td><%= info.kundid %></td>
+                                <td><%= info.produkter %></td>
+                                <td><%= info.status_ %></td>
+                                <td>
+                                        <a href="/view_order/<%= info.orderid %>">View order</a> |
+                                        <a href="/send_order/<%= info.orderid %>">Send order</a>
+                                </td>
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

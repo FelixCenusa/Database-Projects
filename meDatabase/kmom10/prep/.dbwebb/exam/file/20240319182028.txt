@@ -1,0 +1,29 @@
+20240319182028
+.
+total 84
+drwxr-xr-x 3 fece23 fece23  4096 Mar 19 15:40 .dbwebb
+-rw-r--r-- 1 fece23 fece23 10871 Mar 19 18:19 INSTRUKTION_2021-03-24_hund.md
+-rw-r--r-- 1 fece23 fece23 11214 Mar 19 18:19 INSTRUKTION_2021-05-28_vaccin.md
+-rw-r--r-- 1 fece23 fece23 12560 Mar 19 18:19 INSTRUKTION_2022-03-24_fiskodling.md
+-rw-r--r-- 1 fece23 fece23 10782 Mar 19 18:19 INSTRUKTION_2022-05-27_formogenhet.md
+-rw-r--r-- 1 fece23 fece23 10938 Mar 19 18:19 INSTRUKTION_2023-03-23_el.md
+-rw-r--r-- 1 fece23 fece23 10639 Mar 19 18:19 INSTRUKTION_2023-05-26_rymd.md
+-rw-r--r-- 1 fece23 fece23  3926 Mar 19 18:19 README_FIRST.md
+./.dbwebb
+total 4
+drwxr-xr-x 4 fece23 fece23 4096 Mar 19 18:19 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:20 file
+-rw-r--r-- 1 fece23 fece23   36 Mar 19 18:19 id.md
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:20 receipt
+./.dbwebb/exam/receipt
+total 12
+-rw-r--r-- 1 fece23 fece23 592 Mar 19 15:40 20240319144034.md
+-rw-r--r-- 1 fece23 fece23 674 Mar 19 18:19 20240319171917.md
+-rw-r--r-- 1 fece23 fece23 674 Mar 19 18:20 20240319182027.md
+./.dbwebb/exam/file
+total 12
+-rw-r--r-- 1 fece23 fece23 1047 Mar 19 15:40 20240319154037.txt
+-rw-r--r-- 1 fece23 fece23 1174 Mar 19 18:19 20240319181917.txt
+-rw-r--r-- 1 fece23 fece23 1101 Mar 19 18:20 20240319182028.txt

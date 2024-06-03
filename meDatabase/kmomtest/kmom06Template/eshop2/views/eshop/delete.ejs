@@ -1,0 +1,16 @@
+<%- include('./../partials/header.ejs') %>
+        
+        <form method="post" action="/delete">
+            <label>Produktid</label>
+            <input type="text" name="produktid" value="<%= one.produktid %>" readonly>
+            <label>Namn</label>
+            <input type="text" name="namn" value="<%= one.namn %>" readonly>
+            <label>Pris</label>
+            <input type="number" name="pris" value="<%= one.pris %>" readonly>
+            <label>Bild Länk</label>
+            <input type="text" name="bildlank" value="<%= one.bildlank %>" readonly>
+            <label>Beskriving</label>
+            <input type="textarea" name="beskrivning" value="<%= one.beskrivning %>" readonly>
+            <input type="submit" value="Delete">
+
+<%- include('./../partials/footer.ejs') %>

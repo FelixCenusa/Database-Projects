@@ -1,0 +1,29 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Satellit </h2>
+
+        <h3>All Satellit:</h3>
+        
+        <table>
+                <tr>
+                        <th>SatellitID</th><th>Namn</th><th>Massa</th><th>Uppskjutning</th>
+                        <th>Plats</th><th>eol</th><th>url_s</th><th>fenomenNamn</th><th>url_f</th>
+                        <th>Problem</th>
+                </tr>
+                <% for (const info of showAll){ %>
+                        <tr>
+                                <td><%= info.id %></td>
+                                <td><a href="<%= info.url_s %>"><%= info.namn %></td>
+                                <td><%= info.massa %></td>
+                                <td><%= info.uppskjutning %></td>
+                                <td><%= info.plats %></td>
+                                <td><%= info.eol %></td>
+                                <td><a href="<%= info.url_s %>"><%= info.url_s %></a></td>
+                                <td><%= info.fenomenNamn %></td>
+                                <td><a href="<%= info.url_f %>"><%= info.url_f %></a></td>
+                                <td><%= info.problem %></td>
+
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

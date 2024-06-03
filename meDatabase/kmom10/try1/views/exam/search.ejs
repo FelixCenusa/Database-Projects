@@ -1,0 +1,42 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Search </h2>
+
+        <h3>All Proucts and info: </h3>
+        
+        <table>
+            
+            
+            
+            <form action="../exam/search" method="post">
+                <td>
+                    <input type="text" name="what" placeholder="Search something: ">
+                </td>
+                <td>
+                    <input type="submit" value="Search">
+                </td>
+            </form>
+            
+            <tr>
+                <th>Product ID</th><th>Product Name</th><th>Nick</th><th>Debate</th>
+                <th>Year</th><th>Developer ID</th><th>Developer</th><th>Country</th><th>Type</th>
+            </tr>
+
+
+
+                <% for (const inf of info){ %>
+                        <tr>
+                            <td><%= inf.id %></td>
+                            <td><a href="<%= inf.url_p %>"><%= inf.name_p %></td>
+                            <td><%= inf.nick %></td>
+                            <td><%= inf.debate %></td>
+                            <td><%= inf.year %></td>
+                            <td><%= inf.developer_id %></td>
+                            <td><%= inf.developer %></td>
+                            <td><%= inf.country %></td>
+                            <td><a href="<%= inf.url_t %>"><%= inf.type %></td>
+
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

@@ -1,0 +1,122 @@
+20240320212636
+.
+total 88
+drwxr-xr-x 3 fece23 fece23  4096 Mar 19 15:40 .dbwebb
+-rw-r--r-- 1 fece23 fece23 10871 Mar 19 18:19 INSTRUKTION_2021-03-24_hund.md
+-rw-r--r-- 1 fece23 fece23 11214 Mar 19 18:19 INSTRUKTION_2021-05-28_vaccin.md
+-rw-r--r-- 1 fece23 fece23 12560 Mar 19 18:19 INSTRUKTION_2022-03-24_fiskodling.md
+-rw-r--r-- 1 fece23 fece23 10782 Mar 19 18:19 INSTRUKTION_2022-05-27_formogenhet.md
+-rw-r--r-- 1 fece23 fece23 10938 Mar 19 18:19 INSTRUKTION_2023-03-23_el.md
+-rw-r--r-- 1 fece23 fece23 10639 Mar 19 18:19 INSTRUKTION_2023-05-26_rymd.md
+-rw-r--r-- 1 fece23 fece23  3926 Mar 19 18:19 README_FIRST.md
+drwxr-xr-x 5 fece23 fece23  4096 Mar 19 18:27 examTesxt
+./.dbwebb
+total 4
+drwxr-xr-x 4 fece23 fece23 4096 Mar 19 18:19 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 21:26 file
+-rw-r--r-- 1 fece23 fece23   36 Mar 19 18:19 id.md
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 21:26 receipt
+./.dbwebb/exam/receipt
+total 44
+-rw-r--r-- 1 fece23 fece23 592 Mar 19 15:40 20240319144034.md
+-rw-r--r-- 1 fece23 fece23 674 Mar 19 18:19 20240319171917.md
+-rw-r--r-- 1 fece23 fece23 761 Mar 19 18:21 20240319172141.md
+-rw-r--r-- 1 fece23 fece23 674 Mar 19 18:20 20240319182027.md
+-rw-r--r-- 1 fece23 fece23 674 Mar 19 18:20 20240319182042.md
+-rw-r--r-- 1 fece23 fece23 761 Mar 19 18:21 20240319182148.md
+-rw-r--r-- 1 fece23 fece23 844 Mar 20 21:26 20240320202601.md
+-rw-r--r-- 1 fece23 fece23 925 Mar 20 21:26 20240320202629.md
+-rw-r--r-- 1 fece23 fece23 761 Mar 20 21:25 20240320212529.md
+-rw-r--r-- 1 fece23 fece23 844 Mar 20 21:26 20240320212616.md
+-rw-r--r-- 1 fece23 fece23 925 Mar 20 21:26 20240320212636.md
+./.dbwebb/exam/file
+total 60
+-rw-r--r-- 1 fece23 fece23 1047 Mar 19 15:40 20240319154037.txt
+-rw-r--r-- 1 fece23 fece23 1174 Mar 19 18:19 20240319181917.txt
+-rw-r--r-- 1 fece23 fece23 1302 Mar 19 18:20 20240319182028.txt
+-rw-r--r-- 1 fece23 fece23 1428 Mar 19 18:20 20240319182042.txt
+-rw-r--r-- 1 fece23 fece23 1554 Mar 19 18:21 20240319182141.txt
+-rw-r--r-- 1 fece23 fece23 1680 Mar 19 18:21 20240319182148.txt
+-rw-r--r-- 1 fece23 fece23 4726 Mar 20 21:25 20240320212530.txt
+-rw-r--r-- 1 fece23 fece23 4852 Mar 20 21:26 20240320212600.txt
+-rw-r--r-- 1 fece23 fece23 4978 Mar 20 21:26 20240320212616.txt
+-rw-r--r-- 1 fece23 fece23 5104 Mar 20 21:26 20240320212629.txt
+-rw-r--r-- 1 fece23 fece23 1653 Mar 20 21:26 20240320212636.txt
+./examTesxt
+total 12
+drwxr-xr-x 9 fece23 fece23 4096 Mar 20 18:11 eshop2
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:27 func
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:27 index
+./examTesxt/func
+total 4
+-rw-r--r-- 1 fece23 fece23 460 Mar 19 18:27 functions.sql
+./examTesxt/eshop2
+total 40
+-rw-r--r-- 1 fece23 fece23 1753 Mar 20 21:17 cli.js
+drwxr-xr-x 3 fece23 fece23 4096 Mar 19 18:27 config
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 21:11 doc
+-rw-r--r-- 1 fece23 fece23  501 Mar 20 17:45 index.js
+-rw-r--r-- 1 fece23 fece23  559 Mar 19 18:27 package.json
+drwxr-xr-x 3 fece23 fece23 4096 Mar 19 18:27 public
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:27 routes
+drwxr-xr-x 3 fece23 fece23 4096 Mar 20 17:45 sql
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 17:53 src
+drwxr-xr-x 4 fece23 fece23 4096 Mar 20 19:59 views
+./examTesxt/eshop2/views
+total 8
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 19:59 examtest
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:27 partials
+./examTesxt/eshop2/views/partials
+total 8
+-rw-r--r-- 1 fece23 fece23 324 Mar 19 18:27 footer.ejs
+-rw-r--r-- 1 fece23 fece23 363 Mar 20 20:27 header.ejs
+./examTesxt/eshop2/views/examtest
+total 12
+-rw-r--r-- 1 fece23 fece23  122 Mar 20 17:58 index.ejs
+-rw-r--r-- 1 fece23 fece23 1574 Mar 20 21:10 search.ejs
+-rw-r--r-- 1 fece23 fece23 1288 Mar 20 21:10 visa.ejs
+./examTesxt/eshop2/sql
+total 4
+drwxr-xr-x 3 fece23 fece23 4096 Mar 20 20:07 examtest
+./examTesxt/eshop2/sql/examtest
+total 40
+-rw-r--r-- 1 fece23 fece23 9393 Mar 20 19:54 backup.sql
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 17:42 csv
+-rw-r--r-- 1 fece23 fece23 4565 Mar 20 20:58 ddl.sql
+-rw-r--r-- 1 fece23 fece23  243 Mar 20 21:18 dml.sql
+-rw-r--r-- 1 fece23 fece23 1711 Mar 20 17:43 insert.sql
+-rw-r--r-- 1 fece23 fece23   83 Mar 20 17:29 reset.sql
+-rw-r--r-- 1 fece23 fece23   80 Mar 20 17:13 setup.sql
+./examTesxt/eshop2/sql/examtest/csv
+total 20
+-rw-r--r-- 1 fece23 fece23 202 Mar 20 17:40 fenomen.csv
+-rw-r--r-- 1 fece23 fece23 121 Mar 20 17:40 problem.csv
+-rw-r--r-- 1 fece23 fece23 696 Mar 20 17:40 satellit.csv
+-rw-r--r-- 1 fece23 fece23 128 Mar 20 17:40 satellit2fenomen.csv
+-rw-r--r-- 1 fece23 fece23 112 Mar 20 17:40 satellit2problem.csv
+./examTesxt/eshop2/doc
+total 8
+-rw-r--r-- 1 fece23 fece23 104 Mar 20 17:21 er.pdf
+-rw-r--r-- 1 fece23 fece23 110 Mar 20 21:13 redovisningstexts.txt
+./examTesxt/eshop2/src
+total 4
+-rw-r--r-- 1 fece23 fece23 3129 Mar 20 21:23 examtest.js
+./examTesxt/eshop2/config
+total 4
+drwxr-xr-x 2 fece23 fece23 4096 Mar 20 17:53 db
+./examTesxt/eshop2/config/db
+total 4
+-rw-r--r-- 1 fece23 fece23 155 Mar 20 18:33 examtest.json
+./examTesxt/eshop2/public
+total 4
+drwxr-xr-x 2 fece23 fece23 4096 Mar 19 18:27 style
+./examTesxt/eshop2/public/style
+total 4
+-rw-r--r-- 1 fece23 fece23 1351 Mar 19 18:27 style.css
+./examTesxt/eshop2/routes
+total 4
+-rw-r--r-- 1 fece23 fece23 1310 Mar 20 20:41 indexRoutes.js
+./examTesxt/index
+total 0

@@ -1,0 +1,27 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Visa </h2>
+
+        <h3>All Products and info:</h3>
+        
+        <table>
+                <tr>
+                        <th>Product ID</th><th>Product Name</th><th>Nick</th><th>Debate</th>
+                        <th>Year</th><th>Developer ID</th><th>Developer</th><th>Country</th><th>Type</th>
+                </tr>
+                <% for (const info of showAll){ %>
+                        <tr>
+                                <td><%= info.id %></td>
+                                <td><a href="<%= info.url_p %>"><%= info.name_p %></td>
+                                <td><%= info.nick %></td>
+                                <td><%= info.debate %></td>
+                                <td><%= info.year %></td>
+                                <td><%= info.developer_id %></td>
+                                <td><%= info.developer %></td>
+                                <td><%= info.country %></td>
+                                <td><a href="<%= info.url_t %>"><%= info.type %></td>
+
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

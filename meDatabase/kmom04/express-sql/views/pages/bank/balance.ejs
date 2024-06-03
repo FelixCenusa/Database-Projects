@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>$ to Adam</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./../../style/style.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="/">Start</a></li>
+            <li><a href="/today">Today</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/bank">Bank</a></li>
+            <li><a href="/bank/index">Bank Index</a></li>
+            <li><a href="/bank/move-to-adam">Permanently Borrow Funds</a></li>
+            <li><a href="/bank/balance">Bank Balance</a></li>
+        </ul>
+
+<h3>The current balance of all users is: </h3>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Balance</th>
+    </tr>
+    <% for (const account of showAll ) { %>
+        <tr>
+            <td> <%= account.ID %></td>
+            <td> <%= account.Name %></td>
+            <td> <%= account.Balance %></td>
+            
+        </tr>
+        <% }%>
+        
+    </table>
+    
+</body>
+</html>

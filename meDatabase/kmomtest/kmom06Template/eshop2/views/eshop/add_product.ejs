@@ -1,0 +1,17 @@
+<%- include('./../partials/header.ejs') %>
+        
+    <h2>Add a product:</h2>
+    <form method="post">
+        <label>Produktid</label>
+        <input type="text" name="produktid">
+        <label>Namn</label>
+        <input type="text" name="namn">
+        <label>Pris</label>
+        <input type="number" name="pris" min="0">
+        <label>Bild Länk</label>
+        <input type="text" name="bildlank">
+        <label>Beskriving</label>
+        <input type="textarea" name="beskrivning">
+        <input type="submit" value="Add">
+    </form>
+<%- include('./../partials/footer.ejs') %>

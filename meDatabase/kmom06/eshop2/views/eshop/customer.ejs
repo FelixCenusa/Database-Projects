@@ -1,0 +1,19 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>All Costumers:</h2>
+        
+        <table>
+                <tr>
+                        <th>KundId</th><th>Namn</th><th>Adress</th><th>Telefon</th>
+                </tr>
+                <% for (const info of kundinfo){ %>
+                        <tr>
+                                <td><%= info.kundid %></td>
+                                <td><%= info.fornamn %></td>
+                                <td><%= info.adress %></td>
+                                <td><%= info.telefon %></td>
+                                <td><a href="/add_order/<%= info.kundid %>">Add order</a></td>
+                        </tr>
+                <% } %>
+        </table>
+<%- include('./../partials/footer.ejs') %>

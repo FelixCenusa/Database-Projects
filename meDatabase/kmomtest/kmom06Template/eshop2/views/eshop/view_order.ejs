@@ -1,0 +1,22 @@
+<%- include('./../partials/header.ejs') %>
+
+        <h2>Order <%= orderid %></h2>
+
+        <h3>All produkts:</h3>
+        
+        <table>
+                <tr>
+                        <th>ProduktId</th><th>Namn</th><th>Pris</th><th>Antal</th>
+                </tr>
+                <% for (const info of produktinfo){ %>
+                        <tr>
+                                <td><%= info.produktid %></td>
+                                <td><%= info.namn %></td>
+                                <td><%= info.pris %></td>
+                                <td><%= info.antal %></td>
+                        </tr>
+                <% } %>
+        </table>
+
+        <a href="/add_to_order/<%= orderid %>">Add products</a>
+<%- include('./../partials/footer.ejs') %>

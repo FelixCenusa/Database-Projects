@@ -1,0 +1,7 @@
+{
+    "host":     "MAC-KILLER-PRO.local",
+    "user":     "dbadm",
+    "password": "P@ssw0rd",
+    "database": "bank",
+    "multipleStatements": true
+}

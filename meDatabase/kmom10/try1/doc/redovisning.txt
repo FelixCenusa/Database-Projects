@@ -1,0 +1,80 @@
+# Redovisning för try1-projektet
+
+I have been working on the try1 folder, specifically on building a database using SQL. 
+The goal of this project was to create a robust and efficient database to store and manage data.
+
+To begin with, I designed the database schema, carefully considering the relationships 
+between different entities and the data types for each attribute. I used SQL statements 
+to create the necessary tables, specifying the primary keys, foreign keys, and constraints.
+
+Next, I populated the database with relevant data. I wrote SQL insert statements to add 
+records to the tables, ensuring data integrity and consistency.
+
+To query the database, I utilized SQL select statements. I retrieved specific data based 
+on various conditions, such as filtering by certain criteria or joining multiple tables together to extract meaningful insights.
+
+The try1 project/exam involved building a robust and efficient database using SQL whcih can be accessed
+and manipulated through the web app or the terminal client. I gained 
+valuable experience in database design, data manipulation, and query optimization. This project 
+has enhanced my understanding of database management and SQL programming.
+
+Overall, the exam was challenging but manageable. It required careful consideration of the relationships 
+between entities and the data types for each attribute. The process of designing the database schema and 
+writing SQL statements took some time and effort. However, with proper planning and understanding of SQL 
+concepts, it was possible to complete the exam successfully. The exam provided a good opportunity to apply 
+the knowledge gained throughout the course and test database design and SQL programming skills. It was a 
+reasonable examination that effectively assessed the understanding and proficiency in database management
+and practicing on previous exams certainly helped a lot.
+
+
+
+For each project requirement implemented in the try1 project, I carefully planned and executed the necessary 
+steps to ensure a successful outcome.
+
+Requirement 1: Building a robust and efficient database using SQL
+To fulfill this requirement, I started by designing the database schema. I analyzed the data and identified 
+the entities and their relationships. I then created the necessary tables using SQL statements, specifying 
+primary keys, foreign keys, and constraints. This process required attention to detail and a deep understanding 
+of database design principles. I also reverse engineered the sql file to get a er diagram, a simple way to solve 
+another requirement. I encountered some challenges in normalizing the data and ensuring data integrity, 
+but with careful consideration and testing, I was able to overcome these obstacles.
+
+Requirement 2: Implementing a search function
+To meet this requirement, I leveraged my SQL skills to create a search function that allows users to query the 
+database for specific information. I used SQL select statements with appropriate conditions and joins to retrieve 
+the desired data. I also kept in mind that when searching I should NOT search in the developer table, but I should still display it.
+I made a procedure in SQL that I call in a function in the exam.js file where all the functions are added.
+I have a procedure for the web and another for the cli.js.
+This task was relatively straightforward, as I had prior experience with SQL queries and knew how to structure them effectively.
+
+Requirement 3: Implementing a report function
+To fulfill this requirement, from what I understood, I took the table as it was wanted and printed it when it was required.
+Had some eslint errors because it was more then 100 characters per line so i split it, might look a bit weired but all the info is there.
+In retrospect, I probably should have parsed the data and loaded it into a sql database then selected the data with sql code and printed it,
+not just making it a comment and printing it as is, but that ship has sailed.
+
+
+
+Regarding the course, I found it to be highly informative and well-structured. The material provided a comprehensive 
+overview of database management concepts and SQL programming. The guidance and support from the teachers were 
+excellent, especially in the beginning when setting up the environemnts to program and with prompt responses to queries 
+and helpful feedback on assignments. The course exercises and projects 
+were challenging yet rewarding, allowing me to apply the knowledge gained and develop practical skills. 
+
+In terms of improvement suggestions, it would be beneficial to include more hands-on exercises and real-world 
+examples to further reinforce the concepts taught. Having more of the lessons in person would also help a lot, it felt
+at times as though i was just following a long youtube tutorial. Additionally, providing more detailed explanations and 
+step-by-step instructions for complex topics would be helpful for beginners. Overall, I am satisfied with the 
+course and would highly recommend it to my friends and colleagues who are interested in learning about database 
+management and SQL programming.
+
+On a scale of 1-10, I would give this course a solid 8. It provided a solid foundation in database management 
+and SQL programming, and the course material was well-presented and engaging although mostly online an not in person. 
+The guidance and support from the teachers was much appreciated, and the practical projects allowed for the application 
+of learned concepts. I am confident that the knowledge and skills gained from this course will be valuable in my future 
+endeavors in software development.
+
+
+
+
+

@@ -1,0 +1,23 @@
+<%- include("./../partials/header.ejs") %>
+
+        <h2>All produkts:</h2>
+        
+        <table>
+                <tr>
+                        <th>ProduktId</th><th>Namn</th><th>Pris</th><th>Antal</th><th>Kategori</th><th>Action</th>
+                </tr>
+                <% for (const produkt of all_produkt){ %>
+                        <tr>
+                                <td><%= produkt.produktid %></td>
+                                <td><%= produkt.namn %></td>
+                                <td><%= produkt.pris %></td>
+                                <td><%= produkt.antal %></td>
+                                <td><%= produkt.kategori %></td>
+                                <td>
+                                        <a href="/update/<%= produkt.produktid %>">Update</a> |
+                                        <a href="/delete/<%= produkt.produktid %>">Delete</a>
+                                </td>
+                        </tr>
+                <% } %>
+        </table>
+<%- include("./../partials/footer.ejs") %>

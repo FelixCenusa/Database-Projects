@@ -1,0 +1,22 @@
+<%- include("./../partials/header.ejs") %>
+        
+        <h1>Balance</h1>
+
+        <table>
+            <tr>
+                <th>Id</th><th>Name</th><th>Balance</th><th>Action</th>
+            </tr>
+            <% for (const account of allAccounts){ %>
+                <tr>
+                    <td><%= account.id %></td>
+                    <td><%= account.name %></td>
+                    <td><%= account.balance %></td>
+                    <td>
+                        <a href="/update/<%= account.id %>">Update</a> |
+                        <a href="/delete/<%= account.id %>" >Delete</a>
+                    </td>
+                </tr>
+            <% } %>
+
+        </table>
+<%- include("./../partials/footer.ejs") %>
